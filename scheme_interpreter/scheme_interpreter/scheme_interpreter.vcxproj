@@ -142,17 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Hashtable.cpp" />
-    <ClCompile Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\main.cpp" />
-    <ClCompile Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Mem.cpp" />
-    <ClCompile Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Stack.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Hashtable.h" />
-    <ClInclude Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Mem.h" />
-    <ClInclude Include="..\..\..\Scheme_Interpreter\Scheme_Interpreter\Stack.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
